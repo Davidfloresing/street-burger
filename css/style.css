@@ -118,6 +118,10 @@ body {
 /* RESPONSIVE */
 @media(max-width: 991px) {
 
+    .hero {
+    padding-top: 180px;
+    }
+
     .hero-title {
         font-size: 2.8rem;
         text-align: center;
