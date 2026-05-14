@@ -14,6 +14,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #0f0f0f;
     color: white;
+    overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -94,7 +95,9 @@ body {
 }
 
 .hero-img {
+    width: 100%;
     max-width: 500px;
+    height: auto;
     animation: float 3s ease-in-out infinite;
 }
 
@@ -138,6 +141,8 @@ body {
     }
 
     .hero-img {
+        width: 100%;
+        max-width: 280px;
         margin-top: 50px;
     }
 
