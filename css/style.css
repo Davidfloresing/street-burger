@@ -35,11 +35,12 @@ body {
 }
 @media(max-width: 991px) {
 
-    .navbar-collapse {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
+.navbar-collapse {
+    background-color: rgba(15, 15, 15, 0.98);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+    backdrop-filter: blur(10px);
     }
 
 }
