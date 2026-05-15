@@ -260,7 +260,12 @@ body {
 }
 
 .promo-img {
+    width: 100%;
     max-width: 350px;
+    border-radius: 30px;
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.35);
+    margin: auto;
+    display: block;
 }
 
 /* WHATSAPP */
@@ -457,4 +462,17 @@ img {
 .hero .container {
     position: relative;
     z-index: 1;
+}
+/* HERO GLOW MOBILE */
+@media(max-width: 991px) {
+
+    .hero::before {
+        width: 300px;
+        height: 300px;
+        top: 220px;
+        right: 50%;
+        transform: translateX(50%);
+        filter: blur(100px);
+    }
+
 }
