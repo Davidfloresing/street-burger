@@ -100,6 +100,7 @@ body {
     height: auto;
     animation: float 3s ease-in-out infinite;
     margin: auto;
+    border-radius: 30px;
 }
 
 /* ANIMACION */
@@ -416,4 +417,28 @@ img {
 .row {
     margin-left: 0;
     margin-right: 0;
+}
+/* HERO GLOW */
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 107, 0, 0.25);
+    border-radius: 50%;
+    filter: blur(120px);
+    top: 50px;
+    right: 0;
+    z-index: 0;
+}
+
+/* CONTENIDO HERO */
+.hero .container {
+    position: relative;
+    z-index: 1;
 }
